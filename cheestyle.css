@@ -1,0 +1,43 @@
+.banner{
+	background-color: green;
+	height: 41px;
+	width: 31px;
+}
+
+.bar{
+	width: 10%;
+	height: 100%;
+	position: fixed;
+	border: solid 1px #000;
+}
+
+.wrapper{
+	max-width: 2000px;
+	max-height: 2000px;
+	border: 1000px 1000px solid #000;
+	margin: 0 auto;
+}
+
+.mid{
+	display: block;
+	width: 35%;
+	float: left;
+	/*border: solid 1px black;*/
+	margin: 10px;
+}
+
+.right{
+	display: block;
+	width: 20%;
+	float: left;
+	/*border: solid 1px #000;*/
+	margin: 10px;
+}
+
+.left{
+	display: block;
+	width: 30%;
+	float: left;
+	/*border: solid 1px #000;*/
+	margin: 10px;
+}
